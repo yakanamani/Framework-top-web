@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Smoke Test Suite</th></tr>
+<tr><td><a href="#t0">Firefox Browser Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,203</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Chrome Browser Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,250</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Edge Browser Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,266</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">87,719</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Firefox Browser Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1687361248793</td><td rowspan="1">25905</td></tr><tr><th colspan="4">Firefox Browser Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m1">runScenario</a></td><td rowspan="2">1687361248793</td><td rowspan="2">20917</td></tr><tr class="passedeven"><td><a href="#m2">runScenario</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Chrome Browser Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m3">runScenario</a></td><td rowspan="1">1687361248794</td><td rowspan="1">25205</td></tr><tr><th colspan="4">Chrome Browser Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m4">runScenario</a></td><td rowspan="2">1687361248794</td><td rowspan="2">17422</td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Edge Browser Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m6">runScenario</a></td><td rowspan="1">1687361248793</td><td rowspan="1">24773</td></tr><tr><th colspan="4">Edge Browser Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">bdd.automation.runners.TestNGRunnerTest</td><td><a href="#m7">runScenario</a></td><td rowspan="2">1687361248793</td><td rowspan="2">17265</td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr></tbody>
+</table>
+<h2>Firefox Browser Test</h2><h3 id="m0">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;using default payment option&quot;</td><td>&quot;Place an order&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+	at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+	at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+	at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Browser Test</h2><h3 id="m3">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;using default payment option&quot;</td><td>&quot;Place an order&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+	at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+	at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+	at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Edge Browser Test</h2><h3 id="m6">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;using default payment option&quot;</td><td>&quot;Place an order&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+	at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+	at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+	at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">bdd.automation.runners.TestNGRunnerTest#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Add one quantity from Store&quot;</td><td>&quot;Add to cart&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

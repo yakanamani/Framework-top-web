@@ -1,0 +1,224 @@
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-2] [LogUtils] - driver has started : ChromeDriver: chrome on windows (d0c6484447b056b59bce644b68aa2a1a)
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-3] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-3] [LogUtils] - driver has started : ChromeDriver: chrome on windows (7203308061b79f5cdb6e064fabf4e4c9)
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-1] [LogUtils] - driver has started : ChromeDriver: chrome on windows (8fbfe5803a119875f25ab00523af88ee)
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:01:38 [TestNG-PoolService-0] [LogUtils] - driver has started : ChromeDriver: chrome on windows (cf3986e1bb9aa62bfd53d1e576bdaaf9)
+[INFO] 22-06-2023 00:01:40 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-3] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-3] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-2] [LogUtils] - product page is opened
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:01:41 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:01:43 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:01:43 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:01:43 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:01:43 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:01:44 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:01:44 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:01:45 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:01:45 [TestNG-PoolService-3] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:01:45 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:01:45 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:01:47 [TestNG-PoolService-3] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:01:47 [TestNG-PoolService-3] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:01:49 [TestNG-PoolService-2] [LogUtils] - product quantity is added to the cart
+[INFO] 22-06-2023 00:01:49 [TestNG-PoolService-2] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:01:49 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:01:50 [TestNG-PoolService-3] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:01:51 [TestNG-PoolService-3] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:01:51 [TestNG-PoolService-3] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:01:53 [TestNG-PoolService-3] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:01:53 [TestNG-PoolService-3] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:04:06 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:04:06 [TestNG-PoolService-2] [LogUtils] - driver has started : ChromeDriver: chrome on windows (1f8bdff41398b1132a0e0b38936cfbab)
+[INFO] 22-06-2023 00:04:06 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:04:06 [TestNG-PoolService-0] [LogUtils] - driver has started : ChromeDriver: chrome on windows (f85d0abec6ef31bf2614b8159695b5e9)
+[INFO] 22-06-2023 00:04:07 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:04:07 [TestNG-PoolService-0] [LogUtils] - driver has started : EdgeDriver: msedge on windows (6d71e1dd5a5439dbc5e2daebf5ef65b3)
+[INFO] 22-06-2023 00:04:08 [TestNG-PoolService-3] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:04:08 [TestNG-PoolService-3] [LogUtils] - driver has started : ChromeDriver: chrome on windows (121a85d7e8b827e7eacb0cd03a50652b)
+[INFO] 22-06-2023 00:04:10 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:11 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:04:11 [TestNG-PoolService-2] [LogUtils] - driver has started : EdgeDriver: msedge on windows (89601b2c4031386f7be75d451ca57c17)
+[INFO] 22-06-2023 00:04:11 [TestNG-PoolService-3] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:04:11 [TestNG-PoolService-3] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:04:13 [TestNG-PoolService-2] [LogUtils] - product page is opened
+[INFO] 22-06-2023 00:04:14 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:04:14 [TestNG-PoolService-1] [LogUtils] - driver has started : ChromeDriver: chrome on windows (93770394a4c36233a1c95311a2094bc0)
+[INFO] 22-06-2023 00:04:16 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:16 [TestNG-PoolService-2] [LogUtils] - product page is opened
+[INFO] 22-06-2023 00:04:21 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:21 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:21 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:21 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:22 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:22 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:22 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:23 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:23 [TestNG-PoolService-3] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:23 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-3] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-3] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (67e19512-5ffb-4d1f-aa60-a98dcd0ff541)
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-0] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (0ddc2c9c-766a-4de0-b208-a4262130c930)
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-3] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-3] [LogUtils] - driver has started : EdgeDriver: msedge on windows (5da253f39f4a874b61d1e4ae15067625)
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-1] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (14a55041-6cd4-49de-97a0-383ebfcf34b7)
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:04:24 [TestNG-PoolService-2] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (44581293-8e79-4120-be36-809fb04337e7)
+[INFO] 22-06-2023 00:04:25 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:04:25 [TestNG-PoolService-1] [LogUtils] - driver has started : EdgeDriver: msedge on windows (1a302b2a20f07b4cd13d6eeb2cac6691)
+[INFO] 22-06-2023 00:04:28 [TestNG-PoolService-3] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:04:28 [TestNG-PoolService-3] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:04:28 [TestNG-PoolService-3] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:04:28 [TestNG-PoolService-3] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:04:29 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:31 [TestNG-PoolService-2] [LogUtils] - product quantity is added to the cart
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-2] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-3] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:04:32 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:33 [TestNG-PoolService-3] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:04:34 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:04:34 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:04:34 [TestNG-PoolService-3] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:04:34 [TestNG-PoolService-2] [LogUtils] - product quantity is added to the cart
+[INFO] 22-06-2023 00:04:35 [TestNG-PoolService-2] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:35 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:35 [TestNG-PoolService-3] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:04:36 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:36 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:04:36 [TestNG-PoolService-2] [LogUtils] - product page is opened
+[INFO] 22-06-2023 00:04:37 [TestNG-PoolService-3] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:04:37 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:37 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:38 [TestNG-PoolService-3] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:04:38 [TestNG-PoolService-3] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:04:38 [TestNG-PoolService-3] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:04:39 [TestNG-PoolService-3] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:04:39 [TestNG-PoolService-3] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:04:39 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:04:40 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:40 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:40 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:04:42 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:42 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:42 [TestNG-PoolService-3] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:04:42 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:43 [TestNG-PoolService-3] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:04:43 [TestNG-PoolService-3] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:04:43 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:04:43 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:04:43 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:44 [TestNG-PoolService-3] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:04:44 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:04:44 [TestNG-PoolService-2] [LogUtils] - product quantity is added to the cart
+[INFO] 22-06-2023 00:04:45 [TestNG-PoolService-2] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:04:45 [TestNG-PoolService-3] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:04:45 [TestNG-PoolService-3] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:04:45 [TestNG-PoolService-3] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:04:46 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:04:47 [TestNG-PoolService-3] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:04:47 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:04:48 [TestNG-PoolService-3] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:04:48 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:04:49 [TestNG-PoolService-3] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:04:49 [TestNG-PoolService-3] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:04:50 [TestNG-PoolService-3] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:04:51 [TestNG-PoolService-3] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:07:08 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:07:08 [TestNG-PoolService-0] [LogUtils] - driver has started : ChromeDriver: chrome on windows (97deeaae14b19cf2ba8e2424219aae71)
+[INFO] 22-06-2023 00:07:08 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:07:08 [TestNG-PoolService-2] [LogUtils] - driver has started : ChromeDriver: chrome on windows (76929f6c805453faf884bbae86fdba7d)
+[INFO] 22-06-2023 00:07:11 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:11 [TestNG-PoolService-2] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:07:11 [TestNG-PoolService-2] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:07:11 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:15 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowschrome version 114.0.5735.134
+[INFO] 22-06-2023 00:07:15 [TestNG-PoolService-1] [LogUtils] - driver has started : ChromeDriver: chrome on windows (d8491b95825f1bdd71615092c9cb46c3)
+[INFO] 22-06-2023 00:07:15 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:15 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:16 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:17 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:07:17 [TestNG-PoolService-1] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (7ffe15af-3d9d-4538-984f-7ef14bfe7542)
+[INFO] 22-06-2023 00:07:17 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:07:17 [TestNG-PoolService-0] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (2269e58e-c63a-4366-a64d-1c1e2560af0c)
+[INFO] 22-06-2023 00:07:17 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-2] [LogUtils] - driver has started : EdgeDriver: msedge on windows (1b74dac5ab59a639e73638c25319e96d)
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-1] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-1] [LogUtils] - driver has started : EdgeDriver: msedge on windows (cbc48c19206c968adb68494b3c76b908)
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-0] [LogUtils] - Webdriver initialized for browser: windowsmsedge version 114.0.1823.51
+[INFO] 22-06-2023 00:07:18 [TestNG-PoolService-0] [LogUtils] - driver has started : EdgeDriver: msedge on windows (664e8bd000b8f93456cfb28d11f39a45)
+[INFO] 22-06-2023 00:07:19 [TestNG-PoolService-2] [LogUtils] - Webdriver initialized for browser: windowsfirefox version 114.0.2
+[INFO] 22-06-2023 00:07:19 [TestNG-PoolService-2] [LogUtils] - driver has started : FirefoxDriver: firefox on windows (e48bb90f-8e8a-48ad-bbf5-d0cff0bfa5a3)
+[INFO] 22-06-2023 00:07:19 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:20 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:21 [TestNG-PoolService-2] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:07:21 [TestNG-PoolService-2] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:07:21 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:21 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:07:22 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:23 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:23 [TestNG-PoolService-0] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:24 [TestNG-PoolService-0] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:24 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:07:26 [TestNG-PoolService-1] [LogUtils] - Store page is opened
+[INFO] 22-06-2023 00:07:27 [TestNG-PoolService-1] [LogUtils] - Click on AddToCart
+[INFO] 22-06-2023 00:07:29 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:29 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:29 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:29 [TestNG-PoolService-2] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:07:29 [TestNG-PoolService-2] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-2] [LogUtils] - store page is opened
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-2] [LogUtils] - Billing Details data provided in gherkin steps
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-2] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-2] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:30 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:31 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:31 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:31 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:31 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:32 [TestNG-PoolService-1] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:32 [TestNG-PoolService-1] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:33 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:07:33 [TestNG-PoolService-0] [LogUtils] - Click on ViewCartLink button 
+[INFO] 22-06-2023 00:07:33 [TestNG-PoolService-0] [LogUtils] - Product is added to cart 
+[INFO] 22-06-2023 00:07:33 [TestNG-PoolService-1] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:33 [TestNG-PoolService-0] [LogUtils] - Product is displayed is cart
+[INFO] 22-06-2023 00:07:34 [TestNG-PoolService-2] [LogUtils] - Product is already in cart
+[INFO] 22-06-2023 00:07:34 [TestNG-PoolService-2] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:07:35 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:07:35 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:07:35 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:07:36 [TestNG-PoolService-2] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:07:36 [TestNG-PoolService-2] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:07:36 [TestNG-PoolService-0] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)
+[INFO] 22-06-2023 00:07:36 [TestNG-PoolService-1] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:07:36 [TestNG-PoolService-2] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:07:37 [TestNG-PoolService-2] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:07:37 [TestNG-PoolService-2] [LogUtils] - Checkout page is opened
+[INFO] 22-06-2023 00:07:37 [TestNG-PoolService-2] [LogUtils] - Enter billing details 
+[INFO] 22-06-2023 00:07:37 [TestNG-PoolService-2] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:07:38 [TestNG-PoolService-2] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:07:38 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : EdgeDriver: msedge on windows (null)
+[INFO] 22-06-2023 00:07:39 [TestNG-PoolService-2] [LogUtils] - Billing Details Data are provided by Json file
+[INFO] 22-06-2023 00:07:39 [TestNG-PoolService-2] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:07:39 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : ChromeDriver: chrome on windows (null)
+[INFO] 22-06-2023 00:07:40 [TestNG-PoolService-2] [LogUtils] - Overlay is invisible
+[INFO] 22-06-2023 00:07:40 [TestNG-PoolService-2] [LogUtils] - Order is placed
+[INFO] 22-06-2023 00:07:42 [TestNG-PoolService-2] [LogUtils] - Order has succeeded!
+[INFO] 22-06-2023 00:07:43 [TestNG-PoolService-2] [LogUtils] - Driver has stopped : FirefoxDriver: firefox on windows (null)

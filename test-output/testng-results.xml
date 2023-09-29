@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T15:27:27 UTC" name="Smoke Test Suite" finished-at="2023-06-21T15:27:57 UTC" duration-ms="29266">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-06-21T15:27:27 UTC" name="Firefox Browser Test" finished-at="2023-06-21T15:27:56 UTC" duration-ms="29203">
+      <class name="bdd.automation.runners.TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" started-at="2023-06-21T15:27:27 UTC" name="setUpClass" finished-at="2023-06-21T15:27:28 UTC" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a9419d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:49 UTC" duration-ms="20917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:52 UTC" duration-ms="23617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:54 UTC" duration-ms="25905" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["using default payment option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException">
+            <message>
+              <![CDATA[Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.fasterxml.jackson.databind.exc.InvalidDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@19b30c92]" started-at="2023-06-21T15:27:54 UTC" name="tearDownClass" finished-at="2023-06-21T15:27:56 UTC" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.automation.runners.TestNGRunnerTest -->
+    </test> <!-- Firefox Browser Test -->
+    <test started-at="2023-06-21T15:27:27 UTC" name="Chrome Browser Test" finished-at="2023-06-21T15:27:57 UTC" duration-ms="29250">
+      <class name="bdd.automation.runners.TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" started-at="2023-06-21T15:27:27 UTC" name="setUpClass" finished-at="2023-06-21T15:27:28 UTC" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b93aad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:46 UTC" duration-ms="17422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:45 UTC" duration-ms="17120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:53 UTC" duration-ms="25205" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["using default payment option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException">
+            <message>
+              <![CDATA[Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.fasterxml.jackson.databind.exc.InvalidDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@56e07a08]" started-at="2023-06-21T15:27:54 UTC" name="tearDownClass" finished-at="2023-06-21T15:27:57 UTC" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.automation.runners.TestNGRunnerTest -->
+    </test> <!-- Chrome Browser Test -->
+    <test started-at="2023-06-21T15:27:27 UTC" name="Edge Browser Test" finished-at="2023-06-21T15:27:57 UTC" duration-ms="29266">
+      <class name="bdd.automation.runners.TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" started-at="2023-06-21T15:27:27 UTC" name="setUpClass" finished-at="2023-06-21T15:27:28 UTC" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f3c6ac4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:46 UTC" duration-ms="17265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:55 UTC" duration-ms="26520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add one quantity from Store"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add to cart"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" started-at="2023-06-21T15:27:28 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-21T15:27:53 UTC" duration-ms="24773" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["using default payment option"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place an order"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException">
+            <message>
+              <![CDATA[Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `bdd.automation.domainObjects.BillingDetails` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (BufferedInputStream); line: 2, column: 3]
+at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:67)
+at com.fasterxml.jackson.databind.DeserializationContext.reportBadDefinition(DeserializationContext.java:1915)
+at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1360)
+at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1424)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:352)
+at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3809)
+at bdd.automation.utils.JacksonUtils.deserializeJson(JacksonUtils.java:18)
+at bdd.automation.steps.CheckoutSteps.iProvideBillingDetails(CheckoutSteps.java:41)
+at ✽.I provide billing details(file:///C:/Users/DELL/IntellijIdeaProjects/Gitlab/topwebframework-Web-Top-Framework/src/test/resources/bdd.automation/features/guest_place_an_order.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.fasterxml.jackson.databind.exc.InvalidDefinitionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bdd.automation.runners.TestNGRunnerTest@29876704]" started-at="2023-06-21T15:27:55 UTC" name="tearDownClass" finished-at="2023-06-21T15:27:57 UTC" duration-ms="1732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.automation.runners.TestNGRunnerTest -->
+    </test> <!-- Edge Browser Test -->
+  </suite> <!-- Smoke Test Suite -->
+</testng-results>
